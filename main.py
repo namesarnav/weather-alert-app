@@ -49,22 +49,22 @@ def fetch_main():
     current_weather = content['current']
     
 
-# print(final_data)
-# print(lat)
-# print(lng)
+print(final_data)
+print(f'latitude': {lat}')
+print(f'longitude: {lng}')
 
-# def last_updated():
-#     time = 0
-#     while True:
-#         sleep(1)
-#         print(f'Last Updated {time+1} seconds ago.')
-#         time+=1
-#         if time == 9:
-#             break
+def last_updated():
+    time = 0
+    while True:
+        sleep(1)
+        print(f'Last Updated {time+1} seconds ago.')
+        time+=1
+        if time == 9:
+            break
 
-# remaining = 945
-# while remaining>0:
-#     weather_update()
-#     print('Remaining:',remaining)
-#     last_updated()
-#     remaining-=1
+remaining = 945
+while remaining>0:
+    weather_update()
+    print('Remaining:',remaining)
+    last_updated()
+    remaining-=1
