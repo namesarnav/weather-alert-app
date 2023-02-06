@@ -4,7 +4,7 @@ from time import sleep
 #initials
 iss_url = 'http://api.open-notify.org/iss-now.json'
 sun_url = 'https://api.sunrise-sunset.org/json'
-api_key = '8712096633a11db4d978938e6b263ed3'
+api_key = 'API KEY'
 url = 'https://api.openweathermap.org/data/3.0/onecall?lat={}&lon={}&appid={}&units=metric'
 
 ### ISS Data ### 
